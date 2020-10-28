@@ -1,8 +1,5 @@
 require 'pry'
 def key_for_min_value(hash)
-  if hash = {}
-    nil
-  end  
   cheap = hash.first
   hash.each {|item, cost|
   if cost < cheap[1]
@@ -10,4 +7,5 @@ def key_for_min_value(hash)
   end  
   }
   return cheap[0]
+  return nil
 end  
