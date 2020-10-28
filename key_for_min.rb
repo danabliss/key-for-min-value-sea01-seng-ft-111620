@@ -6,6 +6,6 @@ def key_for_min_value(hash)
     cheap = [item, cost]
   end  
   }
-  return cheap[0]
-  return nil
+  x = cheap[0]
+  return x
 end  
