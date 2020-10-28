@@ -1,3 +1,5 @@
 def key_for_min_value(hash)
-  hash.each {|
+  cheap = {:item => 0}
+  hash.each {|item, cost|
+  
 end  
