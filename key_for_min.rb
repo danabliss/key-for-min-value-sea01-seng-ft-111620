@@ -1,4 +1,3 @@
-require 'pry'
 def key_for_min_value(hash)
   cheap = hash.first
   hash.each {|item, cost|
@@ -6,6 +5,5 @@ def key_for_min_value(hash)
     cheap = [item, cost]
   end  
   }
-  x = cheap[0]
-  return x
+  return cheap[0]
 end  
